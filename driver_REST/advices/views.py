@@ -15,5 +15,15 @@ class AdviceCategoryDetailView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = AdviceCategorySerializer
 
 
+# class AdviceListView(generics.ListCreateAPIView):
+#     queryset = Advice.objects.all()
+#     serializer_class = AdviceSerializer
+#     ordering = ('id',)
+#
+#
+# class AdviceDetailView(generics.RetrieveUpdateDestroyAPIView):
+#     queryset = Advice.objects.all()
+#     serializer_class = AdviceSerializer
+
 
 
